@@ -2,8 +2,8 @@
 
 if [ $# -eq 0 ];
     then
-        STARTSIZE=1000
-        ENDSIZE=10000
+        STARTSIZE=10000
+        ENDSIZE=100000
 elif [ $# -eq 1 ];
     then
         STARTSIZE="$1"
