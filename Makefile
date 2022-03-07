@@ -4,7 +4,7 @@ SRCFILES=massmalloc.c
 all:	massmalloc
 
 massmalloc: $(SRCFILES) 
-	gcc -Wall -Werror -o massmalloc $^ 
+	gcc -Wall -o massmalloc $^ 
 
 clean: 
 	rm -f *.o massmalloc
